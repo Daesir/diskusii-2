@@ -20,4 +20,6 @@ jobs:
         with:
           path: .
       - id: deployment
-        uses: actions/deploy-pages@v
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
